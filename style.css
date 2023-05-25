@@ -1,0 +1,23 @@
+* {
+    margin: 0; /* Deixando sem margem */
+}
+
+.container { /* Para organizar em colunas */
+    height: 100vh; 
+    display: flex;
+}
+
+.colors { /* Para separar as divs*/
+    display: flex;
+    width: 20%;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{ /* Para deixar o botao no centro e embaixo*/
+    position: fixed;
+    top: 530px;
+    left: 47%;
+    cursor: pointer;
+}
